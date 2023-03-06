@@ -200,10 +200,10 @@ async def next_page(bot, query):
     )
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
-             InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
+             InlineKeyboardButton(f'ɪɴꜰᴏℹ️', 'reqinfo'),
+             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ🎬', 'minfo'),
+             InlineKeyboardButton(f'sᴇʀɪᴇs🎞️', 'sinfo'),
+             InlineKeyboardButton(f'ᴛɪᴘs🎁', 'tinfo')
          ]
     )
 
