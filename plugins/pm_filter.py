@@ -200,10 +200,10 @@ async def next_page(bot, query):
     )
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ɪɴꜰᴏℹ️', 'reqinfo'),
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ🎬', 'minfo'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs🎞️', 'sinfo'),
-             InlineKeyboardButton(f'ᴛɪᴘs🎁', 'tinfo')
+             InlineKeyboardButton(f'ℹ️Iɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'🎬Mᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🎞️Sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁Tɪᴘs', 'tinfo')
          ]
     )
 
@@ -644,13 +644,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🧩 Gʀᴏᴜᴩ', url='https://t.me/Keralavilla')
         ], [
             InlineKeyboardButton('ℹ️ Hᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('👤 Aʙᴏᴜᴛ', callback_data='about')
          ],[
-            InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ', url='https://t.me/Keralavillas')
+            InlineKeyboardButton('⌬ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ⌬', url='https://t.me/Keralavillas')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
