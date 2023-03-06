@@ -645,7 +645,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/+ipDgG7Qfrps1ZTJl')
+            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/Keralavillas')
         ], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -789,7 +789,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/Devil-Botz/Elsa'),
+            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/Bot_Repo_Kittiyo/5'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -947,8 +947,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "deploy":
         buttons = [[
-           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/Devil-Botz/Elsa'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Aswin_pm_Bot')
+           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/Bot_Repo_Kittiyo/5'),
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Dieudx')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='aswin')
         ]]
@@ -1247,10 +1247,10 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
-             InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
+             InlineKeyboardButton(f'ɪɴꜰᴏℹ️', 'reqinfo'),
+             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ🎬', 'minfo'),
+             InlineKeyboardButton(f'sᴇʀɪᴇs🎞️', 'sinfo'),
+             InlineKeyboardButton(f'ᴛɪᴘs🎁', 'tinfo')
          ]
     )
 
